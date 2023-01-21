@@ -1,6 +1,6 @@
 import requests
 
-token = 'f6f2e3f257da0d4940dcd7101bff17fc'
+token = ''
 
 response = requests.post('https://pokemonbattle.me:5000/trainers/reg', json = {
     "trainer_token": token,
